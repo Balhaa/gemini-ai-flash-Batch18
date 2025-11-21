@@ -1,0 +1,34 @@
+.chat-header {
+    background: var(--header-bg); /* Using the new gradient */
+    color: var(--text-light); /* Changed text to light for contrast */
+    padding: 16px 24px;
+    font-weight: 500;
+    font-size: 1.2rem;
+    border-bottom: 1px solid transparent; /* Removed border */
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* To space out title and button */
+    gap: 12px;
+}
+
+#new-chat-btn {
+    background: none;
+    border: none;
+    color: var(--text-light);
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+    padding: 4px;
+}
+
+#new-chat-btn:hover {
+    opacity: 1;
+}
+
+#new-chat-btn svg {
+    width: 24px;
+    height: 24px;
+}
+
+.chat-box {
+//... existing code ...
